@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+   <TextView
+       android:layout_marginTop="100dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp"
+       android:text="助记词"/>
+   <TextView
+       android:padding="5dp"
+       android:id="@+id/v_mnemonic"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:minHeight="50dp"
+       android:text="无助记词"
+       android:textColorHighlight="#CCCCCC"
+       android:textIsSelectable="true"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="10dp">
+
+      <Button
+          android:id="@+id/v_mnemonic_button"
+          android:layout_width="0dp"
+          android:layout_height="40dp"
+          android:layout_marginRight="5dp"
+          android:layout_weight="1"
+          android:background="@color/colorPrimary"
+          android:text="更换/生成助记词"
+          android:textColor="#fff" />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/v_btc"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="BTC"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/v_eth"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="ETH"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/v_true"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="TRUE"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/v_test_web"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="测试WEB"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
